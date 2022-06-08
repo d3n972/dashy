@@ -1,9 +1,10 @@
+name: 🏗️ Update deploy branches after merge
 on:
   push:
     branches:
     - main
 jobs:
-  test:
+  update_deploy_branches:
     runs-on: ubuntu-20.04
     name: test
     steps:
